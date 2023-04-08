@@ -1,5 +1,5 @@
 {
 	"challenge_name": "test",
-	"challenge_name_func": "{{cookiecutter.challenge_name.capitalize().replace('-','')}}",
+	"challenge_name_func": "{{ cookiecutter.challenge_name.replace('-', ' ').title().replace(' ', '') }}",
 	"challenge_description": "Challenge description"
 }
