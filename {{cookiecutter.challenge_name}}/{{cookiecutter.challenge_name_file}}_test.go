@@ -1,7 +1,7 @@
-package {{cookiecutter.challenge_name}}_test
+package {{cookiecutter.challenge_name_pkg}}_test
 
 import (
-	"{{cookiecutter.challenge_name}}"
+	"{{cookiecutter.challenge_name_pkg}}"
 	"testing"
 	"github.com/stretchr/testify/assert"
 )

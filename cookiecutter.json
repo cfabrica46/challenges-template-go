@@ -1,5 +1,7 @@
 {
 	"challenge_name": "test",
+	"challenge_name_file": "{{ cookiecutter.challenge_name.replace('-', '_') }}",
+	"challenge_name_pkg": "{{ cookiecutter.challenge_name.replace('-', '') }}",
 	"challenge_name_func": "{{ cookiecutter.challenge_name.replace('-', ' ').title().replace(' ', '') }}",
 	"challenge_description": "Challenge description"
 }
