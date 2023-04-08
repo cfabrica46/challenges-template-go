@@ -60,7 +60,7 @@ coverfile_out*
 
 ### Go Patch ###
 /build/
-/build/bin/{{cookiecutter.api_name}}
+/build/bin/{{cookiecutter.challenge_name}}
 
 # Vscode generated
 /.vscode/
