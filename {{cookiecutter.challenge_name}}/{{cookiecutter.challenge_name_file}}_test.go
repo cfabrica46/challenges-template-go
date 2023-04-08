@@ -32,5 +32,4 @@ func Test{{cookiecutter.challenge_name_func}}(t *testing.T) {
 			assert.Equal(t, want, got)
 		})
 	}
-
 }
