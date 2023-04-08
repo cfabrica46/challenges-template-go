@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test{{cookiecutter.challenge_name.replace('-',' ').title().replace(' ', '')}}(t *testing.T) {
+func Test{{cookiecutter.challenge_name_func}}(t *testing.T) {
 	t.Parallel()
 
 	for _, tt := range []struct {
