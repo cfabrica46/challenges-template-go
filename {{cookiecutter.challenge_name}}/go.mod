@@ -1,4 +1,4 @@
-module {{cookiecutter.challenge_name}}
+module {{cookiecutter.challenge_name_pkg}}
 
 go 1.19
 
