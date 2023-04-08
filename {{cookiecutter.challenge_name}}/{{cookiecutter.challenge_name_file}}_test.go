@@ -27,7 +27,7 @@ func Test{{cookiecutter.challenge_name_func}}(t *testing.T) {
 
 			want := tt.out
 
-			got := {{cookiecutter.challenge_name}}.{{cookiecutter.challenge_name}}(tt.in)
+			got := {{cookiecutter.challenge_name_pkg}}.{{cookiecutter.challenge_name_func}}(tt.in)
 
 			assert.Equal(t, want, got)
 		})
