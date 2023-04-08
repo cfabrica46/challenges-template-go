@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test{{cookiecutter.challenge_name|snake_to_camel}}(t *testing.T) {
+func Test{{cookiecutter.challenge_name.capitalize()}}(t *testing.T) {
 	t.Parallel()
 
 	for _, tt := range []struct {
